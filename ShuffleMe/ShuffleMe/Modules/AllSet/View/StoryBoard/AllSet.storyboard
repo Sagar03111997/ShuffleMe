@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--All Set View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="AllSetViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="AllSetViewController" customModule="ShuffleMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A9V-BN-DjM">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AllSetPage" translatesAutoresizingMaskIntoConstraints="NO" id="HgX-ch-k4n">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="HgX-ch-k4n" secondAttribute="bottom" id="KXH-0I-rPr"/>
+                                    <constraint firstItem="HgX-ch-k4n" firstAttribute="top" secondItem="A9V-BN-DjM" secondAttribute="top" id="ZzF-nL-CvX"/>
+                                    <constraint firstAttribute="trailing" secondItem="HgX-ch-k4n" secondAttribute="trailing" id="rdG-bK-NFR"/>
+                                    <constraint firstItem="HgX-ch-k4n" firstAttribute="leading" secondItem="A9V-BN-DjM" secondAttribute="leading" id="tAG-k2-CJ4"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="A9V-BN-DjM" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="1Wg-j1-x9P"/>
+                            <constraint firstAttribute="bottom" secondItem="A9V-BN-DjM" secondAttribute="bottom" id="mYd-Kf-TrZ"/>
+                            <constraint firstItem="A9V-BN-DjM" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="sfh-u7-nEB"/>
+                            <constraint firstItem="A9V-BN-DjM" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="y4k-j5-Kbh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.76923076923077" y="-34.123222748815166"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AllSetPage" width="780" height="1688"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

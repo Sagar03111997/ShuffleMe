@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>701483594370-u71p5tvofv2lkog8816vi2aoq7lum6pg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.701483594370-u71p5tvofv2lkog8816vi2aoq7lum6pg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCX2mijQ1Zm2CdTD53ziwRKlHyU5F6scpo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>701483594370</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.luddy.ShuffleMe.ShuffleMe</string>
+	<key>PROJECT_ID</key>
+	<string>shuffle-me-d7329</string>
+	<key>STORAGE_BUCKET</key>
+	<string>shuffle-me-d7329.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:701483594370:ios:3433ee093e1355382d7a9b</string>
+</dict>
+</plist>

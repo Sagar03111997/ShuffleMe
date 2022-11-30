@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B072272291EDBDB00CDB00D /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B072271291EDBDB00CDB00D /* TabBar.storyboard */; };
+		1B072276291EE03600CDB00D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B072275291EE03600CDB00D /* TabBarViewController.swift */; };
+		1B07227A291EE2DA00CDB00D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B072279291EE2DA00CDB00D /* HomeViewController.swift */; };
+		1B1F4D7829240283007C8E7D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B1F4D7729240283007C8E7D /* GoogleService-Info.plist */; };
+		1B46829529048DDD00B762CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B46829429048DDD00B762CE /* AppDelegate.swift */; };
+		1B46829729048DDD00B762CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B46829629048DDD00B762CE /* SceneDelegate.swift */; };
+		1B46829929048DDD00B762CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B46829829048DDD00B762CE /* LoginViewController.swift */; };
+		1B46829C29048DDD00B762CE /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B46829A29048DDD00B762CE /* Login.storyboard */; };
+		1B46829F29048DDD00B762CE /* ShuffleMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B46829D29048DDD00B762CE /* ShuffleMe.xcdatamodeld */; };
+		1B4682A129048DDE00B762CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4682A029048DDE00B762CE /* Assets.xcassets */; };
+		1B4682A429048DDE00B762CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B4682A229048DDE00B762CE /* LaunchScreen.storyboard */; };
+		1B4682AF29048DDE00B762CE /* ShuffleMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4682AE29048DDE00B762CE /* ShuffleMeTests.swift */; };
+		1B4682B929048DDE00B762CE /* ShuffleMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4682B829048DDE00B762CE /* ShuffleMeUITests.swift */; };
+		1B4682BB29048DDE00B762CE /* ShuffleMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4682BA29048DDE00B762CE /* ShuffleMeUITestsLaunchTests.swift */; };
+		1B522747290AFFC600089E6A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B522746290AFFC600089E6A /* Profile.storyboard */; };
+		1B522749290AFFF000089E6A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B522748290AFFF000089E6A /* ProfileViewController.swift */; };
+		1BB41E3E2908703E009746E8 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB41E3D2908703E009746E8 /* SignUp.storyboard */; };
+		1BB41E4029087052009746E8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB41E3F29087052009746E8 /* SignUpViewController.swift */; };
+		1BB41E4229087934009746E8 /* UtilityMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB41E4129087934009746E8 /* UtilityMethods.swift */; };
+		1BB41E482908869F009746E8 /* AllSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB41E472908869F009746E8 /* AllSet.storyboard */; };
+		1BB41E4A290886E8009746E8 /* AllSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB41E49290886E8009746E8 /* AllSetViewController.swift */; };
+		1BC1DF8A2905C01E00F409A4 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1DF892905C01E00F409A4 /* ColorConstants.swift */; };
+		1BC1DF902905C56800F409A4 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC1DF8F2905C56800F409A4 /* SignIn.storyboard */; };
+		1BC1DF922905C58200F409A4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1DF912905C58200F409A4 /* SignInViewController.swift */; };
+		600D7F83ACC3E2BB7163DE85 /* Pods_ShuffleMe_ShuffleMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD472BB9389DD757F71C65F /* Pods_ShuffleMe_ShuffleMeUITests.framework */; };
+		92A8AB6F7417AE05168CAFB8 /* Pods_ShuffleMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC569490F30A5292F23902BC /* Pods_ShuffleMeTests.framework */; };
+		E22CB58160772E84DB616EA6 /* Pods_ShuffleMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9256CA1ADA1F71DD9127EB /* Pods_ShuffleMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B4682AB29048DDE00B762CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B46828929048DDD00B762CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B46829029048DDD00B762CE;
+			remoteInfo = ShuffleMe;
+		};
+		1B4682B529048DDE00B762CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B46828929048DDD00B762CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B46829029048DDD00B762CE;
+			remoteInfo = ShuffleMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AECDF4C3C8F7A2E94E67101 /* Pods-ShuffleMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleMe.release.xcconfig"; path = "Target Support Files/Pods-ShuffleMe/Pods-ShuffleMe.release.xcconfig"; sourceTree = "<group>"; };
+		1B072271291EDBDB00CDB00D /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		1B072275291EE03600CDB00D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1B072279291EE2DA00CDB00D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1B1F4D7729240283007C8E7D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1B46829129048DDD00B762CE /* ShuffleMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuffleMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B46829429048DDD00B762CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B46829629048DDD00B762CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B46829829048DDD00B762CE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1B46829B29048DDD00B762CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		1B46829E29048DDD00B762CE /* ShuffleMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShuffleMe.xcdatamodel; sourceTree = "<group>"; };
+		1B4682A029048DDE00B762CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B4682A329048DDE00B762CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B4682A529048DDE00B762CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B4682AA29048DDE00B762CE /* ShuffleMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuffleMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4682AE29048DDE00B762CE /* ShuffleMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleMeTests.swift; sourceTree = "<group>"; };
+		1B4682B429048DDE00B762CE /* ShuffleMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuffleMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4682B829048DDE00B762CE /* ShuffleMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleMeUITests.swift; sourceTree = "<group>"; };
+		1B4682BA29048DDE00B762CE /* ShuffleMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B522746290AFFC600089E6A /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		1B522748290AFFF000089E6A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1BB41E3D2908703E009746E8 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		1BB41E3F29087052009746E8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1BB41E4129087934009746E8 /* UtilityMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityMethods.swift; sourceTree = "<group>"; };
+		1BB41E472908869F009746E8 /* AllSet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AllSet.storyboard; sourceTree = "<group>"; };
+		1BB41E49290886E8009746E8 /* AllSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSetViewController.swift; sourceTree = "<group>"; };
+		1BC1DF892905C01E00F409A4 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		1BC1DF8F2905C56800F409A4 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		1BC1DF912905C58200F409A4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3F3D31AD054E91DD643DB8CC /* Pods-ShuffleMe-ShuffleMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleMe-ShuffleMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-ShuffleMe-ShuffleMeUITests/Pods-ShuffleMe-ShuffleMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AA3FB386B7F85DDAC5D2F96 /* Pods-ShuffleMe-ShuffleMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleMe-ShuffleMeUITests.release.xcconfig"; path = "Target Support Files/Pods-ShuffleMe-ShuffleMeUITests/Pods-ShuffleMe-ShuffleMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		565740F0728C2435AC3F4314 /* Pods-ShuffleMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleMeTests.release.xcconfig"; path = "Target Support Files/Pods-ShuffleMeTests/Pods-ShuffleMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA9256CA1ADA1F71DD9127EB /* Pods_ShuffleMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShuffleMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9C645E821BBC24298F6807 /* Pods-ShuffleMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleMeTests.debug.xcconfig"; path = "Target Support Files/Pods-ShuffleMeTests/Pods-ShuffleMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEFF625093423142DAAF5D6D /* Pods-ShuffleMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleMe.debug.xcconfig"; path = "Target Support Files/Pods-ShuffleMe/Pods-ShuffleMe.debug.xcconfig"; sourceTree = "<group>"; };
+		DC569490F30A5292F23902BC /* Pods_ShuffleMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShuffleMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDD472BB9389DD757F71C65F /* Pods_ShuffleMe_ShuffleMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShuffleMe_ShuffleMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B46828E29048DDD00B762CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22CB58160772E84DB616EA6 /* Pods_ShuffleMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4682A729048DDE00B762CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A8AB6F7417AE05168CAFB8 /* Pods_ShuffleMeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4682B129048DDE00B762CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600D7F83ACC3E2BB7163DE85 /* Pods_ShuffleMe_ShuffleMeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0017F83398B143AB13010909 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEFF625093423142DAAF5D6D /* Pods-ShuffleMe.debug.xcconfig */,
+				0AECDF4C3C8F7A2E94E67101 /* Pods-ShuffleMe.release.xcconfig */,
+				3F3D31AD054E91DD643DB8CC /* Pods-ShuffleMe-ShuffleMeUITests.debug.xcconfig */,
+				4AA3FB386B7F85DDAC5D2F96 /* Pods-ShuffleMe-ShuffleMeUITests.release.xcconfig */,
+				BC9C645E821BBC24298F6807 /* Pods-ShuffleMeTests.debug.xcconfig */,
+				565740F0728C2435AC3F4314 /* Pods-ShuffleMeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1B072270291EDBBF00CDB00D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1B072271291EDBDB00CDB00D /* TabBar.storyboard */,
+				1B072275291EE03600CDB00D /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		1B072278291EE2CB00CDB00D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1B072279291EE2DA00CDB00D /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1B08473F29048FB5006459DF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1B1F4D7729240283007C8E7D /* GoogleService-Info.plist */,
+				1B072278291EE2CB00CDB00D /* Home */,
+				1B072270291EDBBF00CDB00D /* TabBar */,
+				1B522742290AFF8300089E6A /* Profile */,
+				1BB41E432908862E009746E8 /* AllSet */,
+				1BC1DF882905BFF400F409A4 /* SupportingResources */,
+				1BB41E392908700B009746E8 /* SignUp */,
+				1BC1DF8B2905C4CA00F409A4 /* SignIn */,
+				1B08474229049460006459DF /* Splash */,
+				1B08474129048FC3006459DF /* Registration */,
+				1B08474029048FBC006459DF /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1B08474029048FBC006459DF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1B0847432904946F006459DF /* Model */,
+				1B08474429049479006459DF /* View */,
+				1B0847452904947E006459DF /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1B08474129048FC3006459DF /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		1B08474229049460006459DF /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				1B4682A229048DDE00B762CE /* LaunchScreen.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		1B0847432904946F006459DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B08474429049479006459DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B08474729049498006459DF /* ViewController */,
+				1B0847462904948C006459DF /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B0847452904947E006459DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1B0847462904948C006459DF /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1B46829A29048DDD00B762CE /* Login.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		1B08474729049498006459DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B46829829048DDD00B762CE /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1B46828829048DDD00B762CE = {
+			isa = PBXGroup;
+			children = (
+				1B46829329048DDD00B762CE /* ShuffleMe */,
+				1B4682AD29048DDE00B762CE /* ShuffleMeTests */,
+				1B4682B729048DDE00B762CE /* ShuffleMeUITests */,
+				1B46829229048DDD00B762CE /* Products */,
+				0017F83398B143AB13010909 /* Pods */,
+				CC6E548F056A7555242B1B24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1B46829229048DDD00B762CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B46829129048DDD00B762CE /* ShuffleMe.app */,
+				1B4682AA29048DDE00B762CE /* ShuffleMeTests.xctest */,
+				1B4682B429048DDE00B762CE /* ShuffleMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B46829329048DDD00B762CE /* ShuffleMe */ = {
+			isa = PBXGroup;
+			children = (
+				1B08473F29048FB5006459DF /* Modules */,
+				1B46829429048DDD00B762CE /* AppDelegate.swift */,
+				1B46829629048DDD00B762CE /* SceneDelegate.swift */,
+				1B4682A029048DDE00B762CE /* Assets.xcassets */,
+				1B4682A529048DDE00B762CE /* Info.plist */,
+				1B46829D29048DDD00B762CE /* ShuffleMe.xcdatamodeld */,
+			);
+			path = ShuffleMe;
+			sourceTree = "<group>";
+		};
+		1B4682AD29048DDE00B762CE /* ShuffleMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B4682AE29048DDE00B762CE /* ShuffleMeTests.swift */,
+			);
+			path = ShuffleMeTests;
+			sourceTree = "<group>";
+		};
+		1B4682B729048DDE00B762CE /* ShuffleMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B4682B829048DDE00B762CE /* ShuffleMeUITests.swift */,
+				1B4682BA29048DDE00B762CE /* ShuffleMeUITestsLaunchTests.swift */,
+			);
+			path = ShuffleMeUITests;
+			sourceTree = "<group>";
+		};
+		1B522742290AFF8300089E6A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1B522743290AFF9500089E6A /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1B522743290AFF9500089E6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B522745290AFFA300089E6A /* ViewController */,
+				1B522744290AFF9C00089E6A /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B522744290AFF9C00089E6A /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1B522746290AFFC600089E6A /* Profile.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		1B522745290AFFA300089E6A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B522748290AFFF000089E6A /* ProfileViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1BB41E392908700B009746E8 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				1BB41E3A29087013009746E8 /* View */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		1BB41E3A29087013009746E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BB41E3C29087027009746E8 /* StoryBoards */,
+				1BB41E3B2908701D009746E8 /* ViewControllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BB41E3B2908701D009746E8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BB41E3F29087052009746E8 /* SignUpViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1BB41E3C29087027009746E8 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				1BB41E3D2908703E009746E8 /* SignUp.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		1BB41E432908862E009746E8 /* AllSet */ = {
+			isa = PBXGroup;
+			children = (
+				1BB41E4429088673009746E8 /* View */,
+			);
+			path = AllSet;
+			sourceTree = "<group>";
+		};
+		1BB41E4429088673009746E8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BB41E462908868A009746E8 /* ViewControllers */,
+				1BB41E4529088682009746E8 /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BB41E4529088682009746E8 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1BB41E472908869F009746E8 /* AllSet.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		1BB41E462908868A009746E8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1BB41E49290886E8009746E8 /* AllSetViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1BC1DF882905BFF400F409A4 /* SupportingResources */ = {
+			isa = PBXGroup;
+			children = (
+				1BC1DF892905C01E00F409A4 /* ColorConstants.swift */,
+				1BB41E4129087934009746E8 /* UtilityMethods.swift */,
+			);
+			path = SupportingResources;
+			sourceTree = "<group>";
+		};
+		1BC1DF8B2905C4CA00F409A4 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				1BC1DF8C2905C4D700F409A4 /* View */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		1BC1DF8C2905C4D700F409A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BC1DF8E2905C4E500F409A4 /* ViewController */,
+				1BC1DF8D2905C4DE00F409A4 /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1BC1DF8D2905C4DE00F409A4 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1BC1DF8F2905C56800F409A4 /* SignIn.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		1BC1DF8E2905C4E500F409A4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BC1DF912905C58200F409A4 /* SignInViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CC6E548F056A7555242B1B24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA9256CA1ADA1F71DD9127EB /* Pods_ShuffleMe.framework */,
+				DDD472BB9389DD757F71C65F /* Pods_ShuffleMe_ShuffleMeUITests.framework */,
+				DC569490F30A5292F23902BC /* Pods_ShuffleMeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B46829029048DDD00B762CE /* ShuffleMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4682BE29048DDE00B762CE /* Build configuration list for PBXNativeTarget "ShuffleMe" */;
+			buildPhases = (
+				BF4DBA3CC4F21E2E18224E11 /* [CP] Check Pods Manifest.lock */,
+				1B46828D29048DDD00B762CE /* Sources */,
+				1B46828E29048DDD00B762CE /* Frameworks */,
+				1B46828F29048DDD00B762CE /* Resources */,
+				B09A967CC79570E2FF924E01 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShuffleMe;
+			productName = ShuffleMe;
+			productReference = 1B46829129048DDD00B762CE /* ShuffleMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B4682A929048DDE00B762CE /* ShuffleMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4682C129048DDE00B762CE /* Build configuration list for PBXNativeTarget "ShuffleMeTests" */;
+			buildPhases = (
+				5BE9F0198A279B5BB2E70F87 /* [CP] Check Pods Manifest.lock */,
+				1B4682A629048DDE00B762CE /* Sources */,
+				1B4682A729048DDE00B762CE /* Frameworks */,
+				1B4682A829048DDE00B762CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B4682AC29048DDE00B762CE /* PBXTargetDependency */,
+			);
+			name = ShuffleMeTests;
+			productName = ShuffleMeTests;
+			productReference = 1B4682AA29048DDE00B762CE /* ShuffleMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B4682B329048DDE00B762CE /* ShuffleMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B4682C429048DDE00B762CE /* Build configuration list for PBXNativeTarget "ShuffleMeUITests" */;
+			buildPhases = (
+				B69266A2FF3D1E6190AEDFEB /* [CP] Check Pods Manifest.lock */,
+				1B4682B029048DDE00B762CE /* Sources */,
+				1B4682B129048DDE00B762CE /* Frameworks */,
+				1B4682B229048DDE00B762CE /* Resources */,
+				0FFB6377C485965EB297865C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B4682B629048DDE00B762CE /* PBXTargetDependency */,
+			);
+			name = ShuffleMeUITests;
+			productName = ShuffleMeUITests;
+			productReference = 1B4682B429048DDE00B762CE /* ShuffleMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B46828929048DDD00B762CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1B46829029048DDD00B762CE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					1B4682A929048DDE00B762CE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1B46829029048DDD00B762CE;
+					};
+					1B4682B329048DDE00B762CE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1B46829029048DDD00B762CE;
+					};
+				};
+			};
+			buildConfigurationList = 1B46828C29048DDD00B762CE /* Build configuration list for PBXProject "ShuffleMe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B46828829048DDD00B762CE;
+			productRefGroup = 1B46829229048DDD00B762CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B46829029048DDD00B762CE /* ShuffleMe */,
+				1B4682A929048DDE00B762CE /* ShuffleMeTests */,
+				1B4682B329048DDE00B762CE /* ShuffleMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B46828F29048DDD00B762CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC1DF902905C56800F409A4 /* SignIn.storyboard in Resources */,
+				1B4682A429048DDE00B762CE /* LaunchScreen.storyboard in Resources */,
+				1B1F4D7829240283007C8E7D /* GoogleService-Info.plist in Resources */,
+				1B4682A129048DDE00B762CE /* Assets.xcassets in Resources */,
+				1B46829C29048DDD00B762CE /* Login.storyboard in Resources */,
+				1B072272291EDBDB00CDB00D /* TabBar.storyboard in Resources */,
+				1BB41E3E2908703E009746E8 /* SignUp.storyboard in Resources */,
+				1B522747290AFFC600089E6A /* Profile.storyboard in Resources */,
+				1BB41E482908869F009746E8 /* AllSet.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4682A829048DDE00B762CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4682B229048DDE00B762CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FFB6377C485965EB297865C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShuffleMe-ShuffleMeUITests/Pods-ShuffleMe-ShuffleMeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShuffleMe-ShuffleMeUITests/Pods-ShuffleMe-ShuffleMeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShuffleMe-ShuffleMeUITests/Pods-ShuffleMe-ShuffleMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BE9F0198A279B5BB2E70F87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShuffleMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09A967CC79570E2FF924E01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShuffleMe/Pods-ShuffleMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShuffleMe/Pods-ShuffleMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShuffleMe/Pods-ShuffleMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B69266A2FF3D1E6190AEDFEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShuffleMe-ShuffleMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF4DBA3CC4F21E2E18224E11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShuffleMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B46828D29048DDD00B762CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B46829929048DDD00B762CE /* LoginViewController.swift in Sources */,
+				1BB41E4029087052009746E8 /* SignUpViewController.swift in Sources */,
+				1B072276291EE03600CDB00D /* TabBarViewController.swift in Sources */,
+				1B522749290AFFF000089E6A /* ProfileViewController.swift in Sources */,
+				1B46829F29048DDD00B762CE /* ShuffleMe.xcdatamodeld in Sources */,
+				1BC1DF922905C58200F409A4 /* SignInViewController.swift in Sources */,
+				1B46829529048DDD00B762CE /* AppDelegate.swift in Sources */,
+				1BB41E4A290886E8009746E8 /* AllSetViewController.swift in Sources */,
+				1BC1DF8A2905C01E00F409A4 /* ColorConstants.swift in Sources */,
+				1B46829729048DDD00B762CE /* SceneDelegate.swift in Sources */,
+				1BB41E4229087934009746E8 /* UtilityMethods.swift in Sources */,
+				1B07227A291EE2DA00CDB00D /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4682A629048DDE00B762CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4682AF29048DDE00B762CE /* ShuffleMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B4682B029048DDE00B762CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4682BB29048DDE00B762CE /* ShuffleMeUITestsLaunchTests.swift in Sources */,
+				1B4682B929048DDE00B762CE /* ShuffleMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B4682AC29048DDE00B762CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B46829029048DDD00B762CE /* ShuffleMe */;
+			targetProxy = 1B4682AB29048DDE00B762CE /* PBXContainerItemProxy */;
+		};
+		1B4682B629048DDE00B762CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B46829029048DDD00B762CE /* ShuffleMe */;
+			targetProxy = 1B4682B529048DDE00B762CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B46829A29048DDD00B762CE /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B46829B29048DDD00B762CE /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		1B4682A229048DDE00B762CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B4682A329048DDE00B762CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B4682BC29048DDE00B762CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B4682BD29048DDE00B762CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B4682BF29048DDE00B762CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFF625093423142DAAF5D6D /* Pods-ShuffleMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShuffleMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luddy.ShuffleMe.ShuffleMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B4682C029048DDE00B762CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AECDF4C3C8F7A2E94E67101 /* Pods-ShuffleMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShuffleMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Login;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luddy.ShuffleMe.ShuffleMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B4682C229048DDE00B762CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC9C645E821BBC24298F6807 /* Pods-ShuffleMeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luddy.ShuffleMe.ShuffleMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuffleMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShuffleMe";
+			};
+			name = Debug;
+		};
+		1B4682C329048DDE00B762CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565740F0728C2435AC3F4314 /* Pods-ShuffleMeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luddy.ShuffleMe.ShuffleMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuffleMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShuffleMe";
+			};
+			name = Release;
+		};
+		1B4682C529048DDE00B762CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3D31AD054E91DD643DB8CC /* Pods-ShuffleMe-ShuffleMeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luddy.ShuffleMe.ShuffleMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShuffleMe;
+			};
+			name = Debug;
+		};
+		1B4682C629048DDE00B762CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA3FB386B7F85DDAC5D2F96 /* Pods-ShuffleMe-ShuffleMeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luddy.ShuffleMe.ShuffleMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShuffleMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B46828C29048DDD00B762CE /* Build configuration list for PBXProject "ShuffleMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4682BC29048DDE00B762CE /* Debug */,
+				1B4682BD29048DDE00B762CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4682BE29048DDE00B762CE /* Build configuration list for PBXNativeTarget "ShuffleMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4682BF29048DDE00B762CE /* Debug */,
+				1B4682C029048DDE00B762CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4682C129048DDE00B762CE /* Build configuration list for PBXNativeTarget "ShuffleMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4682C229048DDE00B762CE /* Debug */,
+				1B4682C329048DDE00B762CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B4682C429048DDE00B762CE /* Build configuration list for PBXNativeTarget "ShuffleMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B4682C529048DDE00B762CE /* Debug */,
+				1B4682C629048DDE00B762CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1B46829D29048DDD00B762CE /* ShuffleMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1B46829E29048DDD00B762CE /* ShuffleMe.xcdatamodel */,
+			);
+			currentVersion = 1B46829E29048DDD00B762CE /* ShuffleMe.xcdatamodel */;
+			path = ShuffleMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B46828929048DDD00B762CE /* Project object */;
+}
